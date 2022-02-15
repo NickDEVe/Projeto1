@@ -1,0 +1,18 @@
+#brownie-img{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+#divReceita{
+    text-align: center;
+    border: solid black; 
+    background-color:azure;
+    padding: 20px;
+}
+#pessoas{
+    display: inline-block;
+    border-radius: 7px;
+    opacity: 0.7;
+    width: 200px;
+    height: 30px;
+}
