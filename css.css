@@ -1,4 +1,26 @@
-#brownie-img{
+div{
+
+    display: inline-block;
+
+}
+
+#brownie{ 
+    
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+#mousse{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+#tortaMaça{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+#cookies{
     width: 200px;
     height: 200px;
     border: solid black;
