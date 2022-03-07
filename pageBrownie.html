@@ -6,39 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brownie</title>
     <a src="/index.html"></a>
-    <link href="/css.css" rel="stylesheet">
+    <link href="/styleSite.css" rel="stylesheet">
     <script type="text/javascript" src="jsReceita.js" defer></script>
 
 </head>
 <body>
+    <div id="form">
     <form action="">  
 
         <input id="pessoas" value="" type="number" placeholder="Digite quantas pessoas servir">
-    
-        <input id="qtdCalcular"  type="submit" value=""><strong>Calcular</strong></input>
     </form>
-    
+    </div>
+
+    <div>
+    <form>
+        <input id="qtdCalcular"  type="submit" value="Calcular"></input>
+    </form>
+    </div>
     <br>
+    <div id="dados">
+    
+
+        <h2>Deseja salvar em PDF:</h2>
+
+        <button  id="savePdf"  onclick="savePdf()"> Salvar </button>
+
+        
+    </div>
     <div id="divReceita">
         <p><h1>Ingredientes</h1>
-           <strong  id="quantidade"  >150</strong> g de Chocolate CLASSIC Meio Amargo
+           <strong  id="quantidade"  > </strong> g de Chocolate CLASSIC Meio Amargo
             <br>
-            <strong  id="quantidade1" >50</strong> g de manteiga em cubos
+            <strong  id="quantidade1" > </strong> g de manteiga em cubos
             <br>
             meia xícara (chá) de açúcar mascavo
             <br>
-            <strong  id="quantidade2">5</strong> colheres (sopa) de açúcar
+            <strong  id="quantidade2"> </strong> colheres (sopa) de açúcar
             <br>
-            <strong  id="quantidade3">2</strong> ovos
+            <strong  id="quantidade3"> </strong> ovos
             <br>
-            <strong id="quantidade4">1</strong> colher (chá) de essência de baunilha
+            <strong id="quantidade4"> </strong> colher (chá) de essência de baunilha
             <br>
             
-            <strong id="quantidade5"> 120</strong>ml de farinha de trigo
+            <strong id="quantidade5"> </strong>ml de farinha de trigo
             <br>
-            <strong id="quantidade6">1</strong> colher (chá) de bicarbonato de sódio
+            <strong id="quantidade6"> </strong> colher (chá) de bicarbonato de sódio
             <br>
-            <strong id="quantidade7">1</strong> xícara (chá) de nozes picadas
+            <strong id="quantidade7"> </strong> xícara (chá) de nozes picadas
             <br>
             <h1>Modo de preparo</h1>
             <ol>
