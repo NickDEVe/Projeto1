@@ -164,3 +164,26 @@ bottomCalcular.addEventListener("click", function(e){
   
 
 })
+
+// save PDF
+
+function savePdf(){
+ let save= document.getElementById("savePdf");
+ save.value;
+  let receita= document.getElementById("divReceita").innerHTML;
+  var win= window.open();
+  win.document.write("<html><head>");
+  win.document.write("<title>Minha receita0</title>" );
+  win.document.write("</head>");
+  win.document.write("<body>");
+  win.document.write("<div>");
+  win.document.write(receita);
+  win.document.write("</div>")
+  win.document.write("</body>");
+  win.document.write("</html>");
+  win.print();
+  win.document.close();
+  
+
+
+}

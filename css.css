@@ -1,9 +1,18 @@
-div{
+body{
+    background-color: rgb(22, 10, 10);
+}
 
+#divPageInitial{
+    padding: 30px;
+    margin-top: 30px;
     display: inline-block;
 
 }
-
+h1{
+    color: peru;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #brownie{ 
     
     width: 200px;
@@ -24,17 +33,4 @@ div{
     width: 200px;
     height: 200px;
     border: solid black;
-}
-#divReceita{
-    text-align: center;
-    border: solid black; 
-    background-color:azure;
-    padding: 20px;
-}
-#pessoas{
-    display: inline-block;
-    border-radius: 7px;
-    opacity: 0.7;
-    width: 200px;
-    height: 30px;
 }
